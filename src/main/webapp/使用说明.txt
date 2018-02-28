@@ -1,0 +1,20 @@
+需要修改的部分 
+
+
+修改codepay.jsp 中的
+String token = "更改成您的token令牌"; //记得更改 http://codepay.fateqq.com 后台可设置
+String codepay_id ="更改成您的码支付ID" ;//记得更改 http://codepay.fateqq.com 后台可获得
+
+更多参数可到https://codepay.fateqq.com/apiword/r1YwqrOte.html获取
+
+1：支付宝  2：QQ钱包 3：微信支付
+
+修改notify.jsp 中的
+String key = "通信密钥"; //记得更改 http://codepay.fateqq.com 后台可设置
+
+写入自己的业务。
+
+
+
+
+
